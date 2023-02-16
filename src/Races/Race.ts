@@ -1,4 +1,4 @@
-export default abstract class Race {
+abstract class Race {
   constructor(private _name: string, private _dexterity: number) { }
 
   public get name(): string {
@@ -15,3 +15,5 @@ export default abstract class Race {
 
   public abstract get maxLifePoints(): number;
 }
+
+export default Race;
